@@ -1,4 +1,4 @@
-list=[]
+lst=[]
 even=[]
 odd=[]
 while True:
@@ -6,16 +6,16 @@ while True:
     if num=='g':
         break
     else:
-        list.append(int(num))
-for i in list:
+        lst.append(int(num))
+for i in lst:
    if i%2==0:
         even.append(i)
         
    else :
       odd.append(i)
     
-print("Even nyumber ara",even)
+print("Even number are",even)
 print("The size of even number",len(even))
 
-print("Odd nyumber ara",odd)
+print("Odd number are",odd)
 print("The size of odd number",len(odd))

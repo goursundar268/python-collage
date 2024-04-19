@@ -1,21 +1,13 @@
-list=[]
-even=[]
-odd=[]
+lst=[]
 while True:
     num=input("Enter The number(G for exit)::")
     if num=='g':
         break
     else:
-        list.append(int(num))
-for i in list:
-   if i%2==0:
-        even.append(i)
-        
-   else :
-      odd.append(i)
+        lst.append(int(num))
+x=int(input("The element of seach:"))
+if x in lst:
+    print("this number is found in this list")
+else:
+    print("this number is not found in this list")
     
-print("Even nyumber ara",even)
-print("The size of even number",len(even))
-
-print("Odd nyumber ara",odd)
-print("The size of odd number",len(odd))
